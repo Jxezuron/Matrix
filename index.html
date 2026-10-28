@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <ul class="navigation">
+        <li>
+            <img src="img/hacker.png" alt="hacker" width="100">
+        </li>
+        <li class="active">
+            Action List
+        </li>
+        <li>
+            Nmap
+        </li>
+        <li>
+            WireShark
+        </li>
+
+    </ul>
+
+    <div class="search">Search the table</div>
+
+    <table border="3">
+        <caption>Info about organizations have been hacked</caption>
+        <tr>
+            <th>Organization</th>
+            <th>Method</th>
+            <th>Loss</th>
+        </tr>
+        <tr>
+            <td>immigration</td>
+            <td>Whistleblowing</td>
+            <td>Information of 4,500 employees allegedly leaked by a whistleblower in response to the killing of Renée Good.</td>
+        </tr>
+        <tr>
+            <td>police</td>
+            <td>Hacked</td>
+            <td>63,000+ staff members data including names, email addresses, phone numbers</td>
+        </tr>
+        <tr>
+            <td>Local Transport authority</td>
+            <td>Hacked</td>
+            <td>5000+ Passengers data including home addresses, bank account details, unconfirmed number of Staff data leaked too</td>
+        </tr>
+    </table>
+    <canvas id="matrix"></canvas>
+</body>
+</html>
